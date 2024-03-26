@@ -3,6 +3,10 @@ import Link from "next/link";
 
 const menuLinks = [
   {
+    path: "/",
+    label: "HOME",
+  },
+  {
     path: "/about",
     label: "ABOUT",
   },
