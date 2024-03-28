@@ -39,7 +39,7 @@ export default function Page() {
           </h1>
         </div>
       </div>
-      <div className="font absolute top-[10%] h-[85%] w-[700%] ">
+      <div className="font absolute top-[10%] h-[85%] w-[100%] ">
         <Marquee className="top-[20%]" speed={250}>
           <h1 className="text-[80px] font-extrabold italic uppercase text-gray-300">AmwertR4</h1>
         </Marquee>
