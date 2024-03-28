@@ -28,7 +28,7 @@ export default function Page() {
           <h1 className="text-3xl w-[80%] h-[50%] mb-[20%] text-gray-500">
             Hi there! 👋 Im AmwertR4
             <br />
-            Feel free to explore my portfolioaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.
+            Feel free to explore my portfolio.
           </h1>
         </div>
         <div className="font-italic small-caps bold 16px cursive ml-[10%] flex">
