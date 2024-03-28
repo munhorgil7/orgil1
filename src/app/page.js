@@ -1,44 +1,59 @@
 import React from "react";
 import Navbar from "./components/navbar";
 import Link from "next/link";
-import TypeAnimation from "./components/TypeAnimation";
-
+import Marquee from "react-fast-marquee";
 
 
 export default function Page() {
   return (
-    <div className="w-[100%] h-[100vh]">
-      <h1 className="text-[#fd3939] mt-[10%] ml-[5%]  absolute text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-          Hello I&apos;m
-        </span>
-        <br />
-        <TypeAnimation
-          sequence={[
-            "AmwertR4",
-            1000,
-            "trying backend",
-            1000,
-            "trying frontend",
-            1000,
-            "ahh shet here we go again",
-            1000,
-          ]}
-          wrapper="span"
-          speed={50}
-          repeat={Infinity}
-        />
-      </h1>
-
-      <div
-        style={{ backgroundImage: "url(/Portfolio.png)" }}
-        className="h-screen flex flex-col justify-between bg-cover"
+    <div className="w-full h-[100vh] ">
+      <video
+        className="body-overlay  absolute w-[100%] h-[100%] object-cover"
+        muted
+        autoPlay
+        loop
+        playsInline
       >
-        <img  src="logo.png" alt="" className="w-[100px] h-20 ml-10 mt-14" />
-        <Navbar />
+        <source src="/video4.mp4" type="video/mp4" />
+      </video>
+      <div className="w-[25%] h-[85%] border mt-[5%]  z-[999] ml-[8%] absolute rounded-3xl border-gray-500 flex flex-col justify-between bg-cover backdrop-blur-[10px]">
+        <div>
+          <img
+            src="contact.png"
+            alt=""
+            className="w-[90%] h-[100%] rounded-2xl ml-6 mt-10"
+          />
+        </div>
+        <div className="font-mono ml-[10%]">
+          <h1 className="text-3xl w-[80%] h-[50%] mb-[20%] text-gray-500">
+            Hi there! 👋 Im AmwertR4
+            <br />
+            Feel free to explore my portfolio.
+          </h1>
+        </div>
+        <div className="font-italic small-caps bold 16px cursive ml-[10%] flex">
+          <h1 className="text-2xl w-[300px] mb-[15%] text-gray-500 ">
+            📍 Based in UlaanBaatar
+            <br />
+            🌟 Passionate about
+          </h1>
+        </div>
+      </div>
+      <div className="font absolute top-[10%] h-[85%] w-[700%] ">
+        <Marquee className="top-[20%]" speed={250}>
+          <h1 className="text-[80px] font-extrabold italic uppercase text-gray-300">AmwertR4</h1>
+        </Marquee>
+
+        <Marquee className="top-[20%]" speed={250}>
+          <h1 className="text-[80px] font-extrabold italic uppercase text-blue-500">FULLSTACK DEVELOPER FULLSTACK</h1>
+        </Marquee>
+        <Marquee className="top-[20%]" speed={250}>
+          <h1 className="text-[80px] font-extrabold italic uppercase text-gray-300">DEVELOPER FULLSTACK DEVELOPER</h1>
+        </Marquee>
+
       </div>
 
-      
+      <Navbar/>
     </div>
   );
 }
