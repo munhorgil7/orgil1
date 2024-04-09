@@ -1,18 +1,18 @@
-'use client'
-import React, { useState, useEffect } from 'react';
+"use client"
+import React, { useState, useEffect } from "react";
 
 const TypeAnimation = ({ sequence, wrapper, speed, repeat }) => {
   const [index, setIndex] = useState(0);
-  const [output, setOutput] = useState('');
+  const [output, setOutput] = useState("");
 
   useEffect(() => {
     const interval = setInterval(() => {
       const currentIndex = index % sequence.length;
       const currentElement = sequence[currentIndex];
 
-      if (typeof currentElement === 'string') {
+      if (typeof currentElement === "string") {
         setOutput(currentElement);
-      } else if (typeof currentElement === 'number') {
+      } else if (typeof currentElement === "number") {
         setTimeout(() => {
           setIndex(index + 1);
         }, currentElement);
