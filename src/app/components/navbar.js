@@ -27,8 +27,8 @@ const menuLinks = [
 
 function Navbar() {
   return (
-    <div className="flex items-center justify-center top-[40%] right-[2%]  absolute poppins bg-slate-700 rounded-3xl h-[300px] w-[50px]   ">
-      <ul className="flex flex-col text-white gap-10 text-[20px] ">
+    <div className="flex items-center justify-center top-[90%] md:top-[93%] md:right-[30%] lg:top-[40%] right-[10%] lg:right-[2%] absolute poppins bg-slate-700 rounded-3xl w-[300px] h-[50px] lg:h-[300px] lg:w-[50px]   ">
+      <ul className="flex lg:flex-col text-white gap-10 text-[20px] ">
         {menuLinks.map((link) => (
           <li
             key={link.path}

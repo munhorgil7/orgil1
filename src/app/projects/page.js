@@ -14,11 +14,11 @@ export default function about() {
           <source src="/video4.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-       <div class="h-screen bg-black">
+       <div class="w-full flex justify-center items-center h-screen bg-black">
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 p-10 pt-28 absolute ml-[15%] mt-[10%] ">
+    <div class="grid grid-cols-1 sm:mb-5 overflov-x-hidden sm:grid-cols-2 gap-5 p-10 pt-28 absolute sm:mt-[100px] ">
 
-        <div class="block rounded-xl border border-gray-800 p-4">
+        <div class="block rounded-xl border border-gray-800 p-4 ">
             <span class="inline-block rounded-lg p-3">
                <div class="inline-flex align-middle justify-center items-center select-none text-white">
                    <svg viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" height="32" width="32">
@@ -31,10 +31,9 @@ export default function about() {
             </span>
 
             <h2 class="mt-2 font-semibold text-base sm:text-lg text-white">
-                For Developers
+                Soft skill
             </h2>
-            <p class="sm:mt-1 block text-sm sm:text-base text-gray-300"> Prototype ideas
-                online, without depending on your local environment.
+            <p class="sm:mt-1 block text-sm sm:text-base text-gray-300"> Friendly, courageous, and adaptable.
             </p>
         </div>
 
@@ -47,14 +46,13 @@ export default function about() {
                 </div>
             </span>
             <h2 class="mt-2 font-semibold text-base sm:text-lg text-white">
-                Content creators
+                Hard Skill
             </h2>
-            <p class="sm:mt-1 block text-sm sm:text-base text-gray-300"> Deliver
-                high-quality, engaging blogs, articles, and video tutorials to your audience.
+            <p class="sm:mt-1 block text-sm sm:text-base text-gray-300"> HTML, CSS, TAILWIND, NODE.JS, NEXT.JS, PYTHON
             </p>
         </div>
 
-        <div class="block rounded-xl border border-gray-800 p-4">
+        <div class="block rounded-xl border border-gray-800 p-4 ">
             <span class="inline-block rounded-lg p-3">
                 <div class="inline-flex align-middle justify-center items-center select-none text-white">
                     <svg viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" height="32" width="32">
@@ -65,14 +63,12 @@ export default function about() {
             </span>
 
             <h2 class="mt-2 font-semibold text-base sm:text-lg text-white">
-                Educators
-                teaching PHP </h2>
-            <p class="sm:mt-1 block text-sm sm:text-base text-gray-300"> Easily create and
-                share coding assignments and projects with your students
+                About me </h2>
+            <p class="sm:mt-1 block text-sm sm:text-base text-gray-300"> In new environment i tend to be an introvert but as time passes i become an extrovert
             </p>
         </div>
 
-        <div class="block rounded-xl border border-gray-800 p-4">
+        <div class="block rounded-xl border border-gray-800 p-4 lg:p-8 invisible sm:visible">
             <span  class="inline-block rounded-lg p-3">
                <div class="inline-flex align-middle justify-center items-center select-none text-white">
                    <svg viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" height="32" width="32">
