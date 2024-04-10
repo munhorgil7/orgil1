@@ -78,7 +78,11 @@ export default function about() {
             </span>
             <h2 class="mt-2 font-semibold text-base sm:text-lg text-white">
                 Certificates </h2>
-            <p class="sm:mt-1 block text-sm sm:text-base text-gray-300">Meta frontend developer
+            <p class="sm:mt-1 block text-sm sm:text-base text-gray-300">Meta frontend developer and backend developer
+            <p class="sm:mt-1 block text-sm sm:text-base text-blue-300">
+            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/UQK3BKFNNBZT">Click here to check certificate</a>
+            </p>
+            
             </p>
         </div>
     </div>
