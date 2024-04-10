@@ -77,10 +77,8 @@ export default function about() {
                </div>
             </span>
             <h2 class="mt-2 font-semibold text-base sm:text-lg text-white">
-                Open source
-                maintainers </h2>
-            <p class="sm:mt-1 block text-sm sm:text-base text-gray-300">For issue
-                reproduction while letting your users try your work without installing it
+                Certificates </h2>
+            <p class="sm:mt-1 block text-sm sm:text-base text-gray-300">Meta frontend developer
             </p>
         </div>
     </div>
